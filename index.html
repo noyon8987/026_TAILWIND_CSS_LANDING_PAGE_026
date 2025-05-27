@@ -15,31 +15,31 @@
     <!-- Header Section Design Starts Here -->
     <div class="bg-[url(/img/hero-bg1.png)] bg-no-repeat bg-cover">
         <div class="bg-[url(/img/hero-bg2.png)]">
-            <div class="px-5 py-5 md:px-20 md:py-5">
+            <div class="px-5 py-0 lg:px-20 lg:py-5">
                 <!-- navber section Design Starts Here -->
                 <div
-                    class="bg-white rounded-xl flex flex-col justify-center items-center gap-2 py-3 md:flex md:flex-row md:justify-between md:px-3 md:rounded-full">
-                    <h1 class="text-green-900 text-4xl md:text-3xl font-medium font-serif">
+                    class="bg-white rounded-xl flex flex-col justify-center items-center gap-2 py-3 lg:flex lg:flex-row lg:justify-between lg:px-3 lg:rounded-full">
+                    <h1 class="text-green-900 text-4xl lg:text-3xl font-medium font-serif">
                         CoolQuest
                     </h1>
                     <ul
-                        class="flex flex-col justify-center items-center gap-2 text-xl font-semibold md:flex md:flex-row md:justify-between md:gap-4">
-                        <li>About Us</li>
-                        <li>Services</li>
-                        <li>First Work</li>
-                        <li>Reviews</li>
+                        class="flex flex-col justify-center items-center gap-2 text-xl font-semibold lg:flex lg:flex-row lg:justify-between lg:gap-4">
+                        <li class="cursor-pointer hover:text-green-600">About Us</li>
+                        <li class="cursor-pointer hover:text-green-600">Services</li>
+                        <li class="cursor-pointer hover:text-green-600">First Work</li>
+                        <li class="cursor-pointer hover:text-green-600">Reviews</li>
                     </ul>
                     <button
-                        class="text-xl font-semibold bg-green-900 text-white px-25 py-2 rounded-xl md:px-5 md:rounded-full">
+                        class="text-xl font-semibold bg-green-900 text-white px-25 py-2 rounded-xl lg:px-5 lg:rounded-full hover:bg-green-700">
                         Get Free Quote
                     </button>
                 </div>
                 <!-- navber section Design Ends Here -->
 
                 <!-- Hero Section Design Starts Here -->
-                <div class="text-white flex justify-between pb-10">
+                <div class="text-white flex flex-col lg:flex-row lg:justify-between pb-10">
                     <div class="flex flex-col gap-1">
-                        <h1 class="text-7xl mt-20 mb-4 font-semibold">
+                        <h1 class="text-5xl mt-4 md:text-6xl lg:text-7xl lg:mt-20 mb-4 font-semibold">
                             Reliable HVAC for <br />
                             Every Season
                         </h1>
@@ -59,43 +59,50 @@
                                 Transparent, Affordable Pricing
                             </p>
                         </div>
-                        <div class="bg-white flex justify-center gap-3 w-8/12 px-30 py-4 rounded my-3">
-                            <div class="flex flex-col items-center gap-3">
-                                <input class="bg-transparent border rounded border-green-900 text-gray-950 pl-2 py-1.5"
-                                    type="text" placeholder="Name" />
-                                <input class="bg-transparent border rounded border-green-900 text-gray-950 pl-2 py-1.5"
-                                    type="text" placeholder="Name" />
+                        <div class="md:flex md:justify-between md:items-center md:gap-10 lg:flex-col lg:items-start">
+                            <div
+                                class="bg-white flex justify-center gap-4 lg:gap-3 w-12/12 py-5 lg:w-8/12 lg:px-30 lg:py-4 rounded my-3">
+                                <div class="flex flex-col items-center gap-4 md:gap-3">
+                                    <input
+                                        class="bg-transparent border rounded border-green-900 text-gray-950 pl-2 py-1.5"
+                                        type="text" placeholder="Name" />
+                                    <input
+                                        class="bg-transparent border rounded border-green-900 text-gray-950 pl-2 py-1.5"
+                                        type="text" placeholder="Name" />
+                                </div>
+                                <div class="flex flex-col items-center gap-4 md:gap-3">
+                                    <input
+                                        class="bg-transparent border rounded border-green-900 text-gray-950 pl-2 py-1.5"
+                                        type="text" placeholder="Name" />
+                                    <button class="bg-green-900 px-17 py-1.5 rounded text-lg">
+                                        Submit
+                                    </button>
+                                </div>
                             </div>
-                            <div class="flex flex-col items-center gap-3">
-                                <input class="bg-transparent border rounded border-green-900 text-gray-950 pl-2 py-1.5"
-                                    type="text" placeholder="Name" />
-                                <button class="bg-green-900 px-17 py-1.5 rounded text-lg">
-                                    Submit
-                                </button>
+                            <p class="text-xl font-semibold">Certified Installer</p>
+                            <div class="flex gap-10 md:gap-15 mt-3">
+                                <img src="../img/hero-c-1.png" alt="" />
+                                <img src="../img/hero-c-2.png" alt="" />
+                                <img src="../img/hero-c-3.png" alt="" />
                             </div>
-                        </div>
-                        <p class="text-xl font-semibold">Certified Installer</p>
-                        <div class="flex gap-15 mt-3">
-                            <img src="../img/hero-c-1.png" alt="" />
-                            <img src="../img/hero-c-2.png" alt="" />
-                            <img src="../img/hero-c-3.png" alt="" />
                         </div>
                     </div>
 
                     <div>
                         <div
-                            class="bg-[url(/img/hero-img.png)] bg-no-repeat bg-contain h-100 w-full relative z-1 mt-20">
-                            <img style="position: absolute; top: 5px; right: 20vw;" src="../img/hero-warning.png"
+                            class="bg-[url(/img/hero-img.png)] bg-no-repeat bg-contain h-100 w-full relative z-1 mt-8 md:mt-20">
+                            <img class="w-45 absolute mt-7 lg:w-60 lg:ml-[-4vw] lg:mt-0" src="../img/hero-warning.png"
                                 alt="">
-                            <img style="position: absolute; top: 70px; right: 0vw;" src="../img/hero-licence.png"
-                                alt="">
-                            <img style="position: absolute; top: 260px; right: 23.5vw;" src="../img/hero-review.png"
+                            <img class="w-40 absolute mt-21 ml-73 lg:w-55 lg:ml-74 lg:mt-10"
+                                src="../img/hero-licence.png" alt="">
+                            <img class="w-35 absolute mt-60 ml-2 lg:w-45 lg:ml-0 lg:mt-65" src="../img/hero-review.png"
                                 alt="">
                         </div>
-                        <div class="bg-white rounded-tl-full h-80 w-125 mt-[-368px]"></div>
-                        <div class="flex gap-1">
-                            <img class="w-62 mt-1 rounded" src="../img/hero-img-2.png" alt="">
-                            <img class="w-62 mt-1 rounded" src="../img/hero-img-3.png" alt="">
+                        <div class="bg-white rounded-tl-full h-60 w-112 lg:h-80 lg:w-125 mt-[-327px] md:mt-[-368px]">
+                        </div>
+                        <div class="flex gap-2 lg:gap-1">
+                            <img class="w-55 mt-2 lg:w-62 lg:mt-1 rounded" src="../img/hero-img-2.png" alt="">
+                            <img class="w-55 mt-2 lg:w-62 lg:mt-1 rounded" src="../img/hero-img-3.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -106,9 +113,9 @@
     <!-- Header Section Design Ends Here -->
 
     <!-- Trusted Rating Section Design Starts Here -->
-    <div class="px-20 pt-6 pb-20 flex flex-col items-center">
-        <h1 class="text-5xl font-semibold mt-10 mb-10">Trusted by Families Like Yours</h1>
-        <div class="flex justify-between items-center gap-10">
+    <div class="px-5 md:px-20 md:pt-6 pb-20 flex flex-col items-center">
+        <h1 class="text-3xl md:text-5xl font-semibold mt-10 mb-10">Trusted by Families Like Yours</h1>
+        <div class="flex flex-col gap-5 lg:flex-row lg:justify-between lg:items-center lg:gap-10">
             <div
                 class="flex flex-col justify-center items-center px-10 text-center py-5 rounded-4xl shadow-gray-300 shadow-xl">
                 <img class="py-2" src="../img/p3.png" alt="">
@@ -145,11 +152,11 @@
     <!-- Trusted Rating Section Design Ends Here -->
 
     <!-- Trusted Certified Design Starts Here -->
-    <div class="px-20 py-5">
-        <h1 class="text-5xl font-semibold text-center mb-10">Your Trusted HVAC Experts</h1>
+    <div class="lg:px-20 py-5">
+        <h1 class="text-3xl lg:text-5xl font-semibold text-center mb-10">Your Trusted HVAC Experts</h1>
         <div class="">
 
-            <div class="flex justify-center items-center mb-10">
+            <div class="flex flex-col md:flex-row justify-center items-center md:mb-10">
                 <div class="px-10 flex flex-col justify-center items-center text-center mb-10">
                     <img class="mb-3" src="../img/w1.png" alt="">
                     <div>
@@ -166,7 +173,7 @@
                 </div>
             </div>
 
-            <div class="flex justify-center items-center gap-15">
+            <div class="flex flex-col md:flex-row justify-center items-center md:gap-15">
                 <div class="px-10 flex flex-col justify-center items-center text-center mb-10">
                     <img class="mb-3" src="../img/w3.png" alt="">
                     <div>
@@ -192,10 +199,10 @@
     <!-- Trusted Certified Design Ends Here -->
 
     <!-- Benefits Section Design Starts Here -->
-    <div class="bg-[#EBFFF1] px-20 pt-5 pb-15">
-        <h1 class="text-5xl font-semibold text-center pt-5 pb-10">The Benefits of Choosing Us</h1>
+    <div class="bg-[#EBFFF1] md:px-20 pt-5 pb-15">
+        <h1 class="text-3xl lg:text-5xl font-semibold text-center pt-5 pb-10">The Benefits of Choosing Us</h1>
 
-        <div class="flex justify-content-between items-center gap-10">
+        <div class="flex flex-col lg:flex-row justify-content-between items-center gap-10">
             <div
                 class="flex flex-col justify-center items-center h-68 w-100 text-center bg-white rounded-tr-4xl rounded-bl-4xl">
                 <img src="../img/b1.png" alt="">
@@ -221,16 +228,16 @@
     <!-- Benefits Section Design Ends Here -->
 
     <!-- Explore Work Section Design Starts Here -->
-    <div class="px-20 py-10 flex justify-between items-center gap-8">
-        <div class="w-[50%] px-4 text-lg">
-            <h1 class="text-5xl font-semibold mb-15">Past Work That Speaks for Itself</h1>
-            <p class="text-md text-gray-600 font-medium mb-15">Explore some of the outstanding HVAC projects we’ve
+    <div class="lg:px-20 py-10 flex flex-col lg:flex-row justify-between items-center gap-8">
+        <div class="w-100 lg:w-150 px-4 text-lg">
+            <h1 class="text-3xl lg:text-5xl font-semibold  mb-5 lg:mb-15">Past Work That Speaks for Itself</h1>
+            <p class="text-md text-gray-600 font-medium lg:mb-15">Explore some of the outstanding HVAC projects we’ve
                 proudly completed. Every image reflects our unwavering commitment to quality, reliability, and expert
                 craftsmanship — from flawless installations to seamless maintenance. These are just a few examples of
                 the exceptional results we deliver for homeowners like you.</p>
-            <button class="bg-[#0B5D1E] text-white px-5 py-3 rounded">Explore Our Work</button>
+            <button class="bg-[#0B5D1E] text-white mt-5 px-5 py-3 rounded">Explore Our Work</button>
         </div>
-        <div class="w-[50%] bg-[#0B5D1E] text-white px-4 py-4 rounded-3xl">
+        <div class="w-100 lg:w-150 bg-[#0B5D1E] text-white px-4 py-4 rounded-3xl">
             <h1 class="text-3xl pt-5 pb-4">Efficient Home Heating Upgrade</h1>
             <p>Installed a high-efficiency furnace system, reducing energy costs and improving comfort for the
                 homeowners.</p>
@@ -240,13 +247,13 @@
     <!-- Explore Work Section Design Ends Here -->
 
     <!-- Repair Section Design Starts Here -->
-    <div class="px-20 pb-10 flex justify-between items-center gap-8">
-        <div class="w-[50%] bg-[#0B5D1E] text-white px-4 py-4 rounded-3xl">
+    <div class="lg:px-20 pb-10 flex flex-col lg:flex-row justify-between items-center gap-8">
+        <div class="w-100 lg:w-150 bg-[#0B5D1E] text-white px-4 py-4 rounded-3xl">
             <h1 class="text-3xl pt-5 pb-4">Complete HVAC System Installation</h1>
             <p>Designed and installed a full heating and cooling solution for a newly built modern home.</p>
             <img class="w-200 mt-4" src="../img/Frame 6.png" alt="">
         </div>
-        <div class="w-[50%] bg-[#0B5D1E] text-white px-4 py-4 rounded-3xl">
+        <div class="w-100 lg:w-150 bg-[#0B5D1E] text-white px-4 py-4 rounded-3xl">
             <h1 class="text-3xl pt-5 pb-4">Emergency AC Repair & Restoration</h1>
             <p>Rapid response service that restored cooling during peak summer heat, ensuring family comfort and safety.
             </p>
@@ -256,19 +263,19 @@
     <!-- Repair Section Design Ends Here -->
 
     <!-- Hot Offer Section Design Starts Here -->
-    <div class="px-20 py-10">
-        <h1 class="text-center text-5xl font-semibold">Save Big on Your Next HVAC Project</h1>
-        <div class="flex justify-between items-center py-10">
-            <img class="w-[66%]" src="../img/Frame 14.png" alt="">
-            <img class="w-[32%]" src="../img/Frame 15.png" alt="">
+    <div class="lg:px-20 py-10">
+        <h1 class="text-center text-3xl lg:text-5xl font-semibold">Save Big on Your Next HVAC Project</h1>
+        <div class="flex flex-col lg:flex-row justify-between items-center py-10 gap-5">
+            <img class="w-100 lg:w-200" src="../img/Frame 14.png" alt="">
+            <img class="w-100" src="../img/Frame 15.png" alt="">
         </div>
     </div>
     <!-- Hot Offer Section Design Ends Here -->
 
     <!-- Comfort Home Section Design Starts Here -->
-    <div class="px-20 pb-5">
-        <h1 class="text-center text-5xl font-semibold pb-8">How We Bring Comfort to Your Home</h1>
-        <div class="flex justify-center items-center gap-5">
+    <div class="lg:px-20 pb-5">
+        <h1 class="text-center text-3xl px-10 lg:text-5xl font-semibold pb-8">How We Bring Comfort to Your Home</h1>
+        <div class="flex flex-col lg:flex-row justify-center items-center lg:gap-5">
             <img src="../img/flow1.png" alt="">
             <img src="../img/flow2.png" alt="">
             <img src="../img/flow3.png" alt="">
@@ -278,28 +285,31 @@
     <!-- Comfort Home Section Design Ends Here -->
 
     <!-- Service Section Design Starts Here -->
-    <div class="px-20 py-10">
-        <h1 class="text-center text-5xl font-semibold mb-10">Our HVAC Services</h1>
-        <div class="flex justify-center items-center gap-8">
+    <div class="lg:px-20 py-10">
+        <h1 class="text-center text-4xl lg:text-5xl font-semibold mb-10">Our HVAC Services</h1>
+        <div class="flex flex-col lg:flex-row justify-content-between items-center gap-8">
             <div>
-                <img src="../img/Frame 11.png" alt="">
+                <img class="w-100" src="../img/Frame 11.png" alt="">
                 <h1 class="text-2xl font-semibold py-2">Air Conditioner Installation</h1>
-                <p class="text-md font-semibold text-gray-500">Stay cool all summer with fast, professional AC
+                <p class="text-md font-semibold text-gray-500">Stay cool all summer with fast, professional AC <br>
                     installations built to last.</p>
                 <button class="text-white bg-[#0B5D1E] px-5 py-2 rounded text-lg mt-3">Explore Service</button>
             </div>
-            <div class="ml-8">
-                <img src="../img/Frame 12.png" alt="">
+            <div class="lg:ml-8">
+                <img class="w-100" src="../img/Frame 12.png" alt="">
                 <h1 class="text-2xl font-semibold py-2">Heating System Repair</h1>
-                <p class="text-md font-semibold text-gray-500">Keep your home warm and safe with expert repair services
+                <p class="text-md font-semibold text-gray-500">Keep your home warm and safe with expert repair <br>
+                    services
                     for any heating system.</p>
                 <button class="text-white bg-[#0B5D1E] px-5 py-2 rounded text-lg mt-3">Explore Service</button>
             </div>
             <div>
-                <img src="../img/Frame 13.png" alt="">
+                <img class="w-100" src="../img/Frame 13.png" alt="">
                 <h1 class="text-2xl font-semibold py-2">Indoor Air Quality Solutions</h1>
                 <p class="text-md font-semibold text-gray-500">Breathe cleaner, healthier air with advanced filtration
-                    and ventilation systems.</p>
+                    <br>
+                    and ventilation systems.
+                </p>
                 <button class="text-white bg-[#0B5D1E] px-5 py-2 rounded text-lg mt-3">Explore Service</button>
             </div>
         </div>
@@ -307,20 +317,20 @@
     <!-- Service Section Design Ends Here -->
 
     <!-- Meet Section Design Starts Here -->
-    <div class="px-20 py-10">
-        <h1 class="text-center text-5xl font-semibold mb-10">Meet the People Behind the Work</h1>
-        <div class="flex justify-center items-center">
-            <div class="w-[50%]">
+    <div class="px-5 lg:px-20 py-10">
+        <h1 class="text-center text-3xl lg:text-5xl font-semibold mb-10">Meet the People Behind the Work</h1>
+        <div class="flex flex-col lg:flex-row justify-center items-center gap-7">
+            <div class="w-100 lg:w-150">
                 <img src="../img/Frame 20.png" alt="">
             </div>
-            <div class="w-[50%] flex justify-center items-center gap-7">
-                <div class="w-[27%] border border-green-900 px-5 py-10 rounded">
+            <div class="w-100 lg:w-150 flex flex-col lg:flex-row justify-center items-center gap-7">
+                <div class="w-100 border border-green-900 px-5 py-10 rounded">
                     <p class="text-gray-600 font-semibold pt-4 pb-10">“My mission is simple — to give every homeowner
                         reliable, efficient comfort they can count on, every day.”</p>
                     <p class="text-green-900 text-2xl font-semibold">James Carter</p>
                     <p class="text-gray-600 font-semibold mt-2">Founder & Senior HVAC Specialist</p>
                 </div>
-                <div class="w-[27%] border border-green-900 px-5 py-10 rounded">
+                <div class="w-100 border border-green-900 px-5 py-10 rounded">
                     <p class="text-gray-600 font-semibold pt-4 pb-10">“I’m here to ensure every project runs smoothly
                         and every customer feels heard, respected, and happy with our work.”</p>
                     <p class="text-green-900 text-xl font-semibold">Michael Torres</p>
@@ -332,9 +342,9 @@
     <!-- Meet Section Design Ends Here -->
 
     <!-- Insights Section Design Starts Here -->
-    <div class="px-20 py-10 flex flex-col justify-center items-center">
-        <h1 class="text-center text-5xl font-semibold pb-10">HVAC Insights</h1>
-        <div class="flex justify-center items-center gap-10">
+    <div class="lg:px-20 py-10 flex flex-col justify-center items-center">
+        <h1 class="text-center text-4xl lg:text-5xl font-semibold pb-10">HVAC Insights</h1>
+        <div class="flex flex-col lg:flex-row justify-center items-center gap-10">
             <div class="shadow shadow-gray-300 rounded-3xl">
                 <img class="w-full" src="../img/Frame 21.png" alt="">
                 <div class="px-4 py-4">
@@ -368,9 +378,9 @@
     <!-- Insights Section Design Ends Here -->
 
     <!-- Areas Section Design Starts Here -->
-    <div class="px-20 pb-10 flex flex-col justify-center items-center gap-7">
+    <div class="lg:px-20 pb-10 flex flex-col justify-center items-center gap-7">
         <h1 class="text-center text-5xl font-semibold pb-5">Areas We Serve</h1>
-        <div class="flex justify-between items-center gap-8">
+        <div class="flex flex-col lg:flex-row justify-between items-center gap-8">
             <div style="border: 1px solid green; border-radius: 50px;"
                 class="flex justify-center items-center gap-2 px-6 py-3">
                 <img src="../img/location-03.png" alt="">
@@ -402,7 +412,7 @@
                 <p class="text-lg font-semibold text-green-900">Phoenix</p>
             </div>
         </div>
-        <div class="flex justify-between  gap-10">
+        <div class="flex flex-col lg:flex-row justify-between  gap-10">
             <div style="border: 1px solid green; border-radius: 50px;"
                 class="flex justify-center items-center gap-2 px-6 py-3">
                 <img src="../img/location-03.png" alt="">
@@ -434,7 +444,7 @@
                 <p class="text-lg font-semibold text-green-900">Atlanta</p>
             </div>
         </div>
-        <div class="flex justify-between items-center gap-12">
+        <div class="flex flex-col lg:flex-row justify-between items-center gap-12">
             <div style="border: 1px solid green; border-radius: 50px;"
                 class="flex justify-center items-center gap-2 px-6 py-3">
                 <img src="../img/location-03.png" alt="">
@@ -451,17 +461,17 @@
                 <p class="text-lg font-semibold text-green-900">Raleigh</p>
             </div>
             <div style="border: 1px solid green; border-radius: 50px;"
-                class="flex justify-center items-center gap-2 px-6 py-3 ml-20">
+                class="flex justify-center items-center gap-2 px-6 py-3">
                 <img src="../img/location-03.png" alt="">
                 <p class="text-lg font-semibold text-green-900">Chicago</p>
             </div>
             <div style="border: 1px solid green; border-radius: 50px;"
-                class="flex justify-center items-center gap-2 px-6 py-3 ml-20">
+                class="flex justify-center items-center gap-2 px-6 py-3">
                 <img src="../img/location-03.png" alt="">
                 <p class="text-lg font-semibold text-green-900">Tampa</p>
             </div>
             <div style="border: 1px solid green; border-radius: 50px;"
-                class="flex justify-center items-center gap-2 px-6 py-3 ml-20">
+                class="flex justify-center items-center gap-2 px-6 py-3">
                 <img src="../img/location-03.png" alt="">
                 <p class="text-lg font-semibold text-green-900">Orlando</p>
             </div>
@@ -470,14 +480,15 @@
     <!-- Areas Section Design Ends Here -->
 
     <!-- Footer Section Design Starts Here -->
-    <footer class="px-20 py-10 bg-[#0B5D1E]">
-        <div class="bg-white flex justify-between items-center px-10 py-5 rounded-2xl">
-            <p style="color: #0B5D1E;" class="text-2xl font-semibold">Let us help you choose the perfect system for your
+    <footer class="px-5 lg:px-20 py-10 bg-[#0B5D1E]">
+        <div class="bg-white flex justify-between items-center px-4 lg:px-10 py-5 rounded-2xl">
+            <p style="color: #0B5D1E;" class=" lg:text-2xl font-semibold">Let us help you choose the perfect system for
+                your
                 home.</p>
             <button class="bg-[#0B5D1E] text-white text-md font-semibold px-6 py-3 rounded-xl">Free HVAC
                 Estimate</button>
         </div>
-        <div class="flex justify-between items-center text-white py-10">
+        <div class="flex flex-col gap-3 lg:flex-row justify-between lg:items-center text-white py-10">
             <div class="flex flex-col gap-4">
                 <h1 class="text-4xl font-serif font-medium">CoolQuest</h1>
                 <p class="font-medium py-4">Trusted local HVAC experts delivering reliable <br> heating and cooling
@@ -498,7 +509,7 @@
                 <p class="text-lg font-semibold">FAQs</p>
             </div>
 
-            <div style="margin-top: -20px;" class="flex flex-col justify-start gap-5">
+            <div class="flex flex-col justify-start mt-5 gap-2 lg:gap-5 lg:mt-[-20px]">
                 <p class="text-lg font-semibold">(555) 123-4567</p>
                 <p class="text-lg font-semibold">mail.coolquest.com</p>
                 <p class="text-lg font-semibold">1234 Maplewood Drive, Houston, <br> TX 77002, United States</p>
